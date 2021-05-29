@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Eventos Formulários</title>
+		
+		<!--
+		<script type="text/javascript">
+			alert('Teste de inclusão de JavaScript');
+		</script>
+		-->
+
+		<script type="text/javascript">
+
+			//onfocus
+			//onblur
+			//onchange
+
+			function msgBoasVindas(){
+				alert('O elemento foi focado');
+			}
+
+			
+		</script>
+
+	</head>
+	<body>
+
+		<input onfocus="msgBoasVindas()" onblur="alert('O elemento perdeu o foco')" type="text"/>
+
+		<br/>
+		<br/>
+
+		<select onchange="alert('A opção foi alterada')">
+			<option value="1"> Primeira Opção </option>
+			<option value="2"> Segunda Opção </option>
+		</select>
+		
+	</body>
+</html>

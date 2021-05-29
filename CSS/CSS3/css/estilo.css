@@ -1,0 +1,116 @@
+
+/* Border radius */
+
+/*#box{
+	width: 300px;
+	height: 300px;
+	background: #b9c941;
+	padding: 50px;
+	/*box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+}*/
+
+/* Degrade Transparente */
+
+/*#box{
+	width: 300px;
+	height: 300px;
+	background: url("../img/camera.png");
+}
+
+#box h1{
+	background: rgba(255,255,255,0.5);
+}
+
+/*#box {
+	width: 300px;
+	height: 300px;
+	background: radial-gradient(red, yellow);
+}
+
+
+#box {
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(red, yellow);
+}*/
+
+/* Sombras */
+
+/*#box{
+	width: 400px;
+	#height: 400px;
+	#margin: 50px auto;
+	#padding: 8px;
+	background: #009670;
+	/*box-shadow: 10px 10px 2px 202px black;
+	box-shadow: 10px 10px 2px 20px black, -10px -10px 2px 20px red;
+}
+
+#box h1{
+	color: white;
+	font-size: 60px;
+	/*text-shadow: 20px 20px rgba(0,0,0,0.2);*/
+	/*text-shadow: 5px 5px 10px black;
+	text-shadow: 4px 4px black;
+}*/
+
+
+/* Animação */
+
+/* Criar a animação */
+
+/*@keyframes animacao-box{
+
+	from{
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	}
+	
+	to{
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+
+}
+
+#box-animacao{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	
+	animation: animacao-box 5s 3s 9 alternate;
+
+	/*animation-name: animacao-box;
+	animation-duration: 5s;
+	animation-dalay: 3s;
+	animation-iteration-count: 9;
+	animation-direction: alternate;
+}
+*/
+
+/* Transição */
+
+#box-transicao{
+	width: 300px;
+	height: 300px;
+	background: orange;
+}
+
+#box-transicao:hover{
+	width: 400px;
+	background: black;
+
+	transition: all 2s;
+
+	/*transition: background 5s,  width 5s;*/
+}
